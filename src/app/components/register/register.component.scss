@@ -1,0 +1,82 @@
+@import "../../../styles.scss";
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  .container__form {
+    width: 100%;
+    background-image: $gradient;
+    padding: 1rem;
+    border-radius: 3px;
+    .container__form__register {
+      width: 100%;
+      .form__register {
+        width: 100%;
+        &--tittle {
+          text-align: center;
+          text-transform: uppercase;
+          font-size: 1.8rem;
+          margin-bottom: 2rem;
+        }
+        &--field {
+          display: flex;
+          flex-direction: column;
+          label {
+            i {
+              margin-right: 2rem;
+            }
+          }
+          input {
+            margin: 0 0 2rem 2rem;
+            font-size: 18px;
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid $light;
+            color: $light;
+            &:focus:not([readonly]) {
+              outline: none;
+              box-shadow: 0 1px 0 0 $light;
+            }
+          }
+        }
+        &--validate {
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 840px) {
+  .container {
+    .container__form {
+      width: 70%;
+      .form__register {
+        &--field {
+          input {
+            width: 70%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    .container__form {
+      width: 30%;
+      padding: 2rem;
+      .form__register {
+        &--field {
+          input {
+            width: 70%;
+          }
+        }
+      }
+    }
+  }
+}

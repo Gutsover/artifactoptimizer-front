@@ -1,0 +1,110 @@
+<div class="container">
+  <div class="container__form">
+    <form [formGroup]="characterForm">
+      <label for="character-select"
+        >Choose a character to add to your collection (stats based on max level-90) :</label
+      >
+
+      <select
+        name="characters"
+        id="character-select"
+        formControlName="characterControl"
+      >
+        <option value="" class="select__element" disabled>---anemo---</option>
+        <option *ngFor="let item of charactersAnemoList" [ngValue]="item">
+          {{ item }}
+        </option>
+
+        <option value="" class="select__element" disabled>---Pyro---</option>
+        <option *ngFor="let item of charactersPyroList" [ngValue]="item">
+          {{ item }}
+        </option>
+
+        <option value="" class="select__element" disabled>---Electro---</option>
+        <option *ngFor="let item of charactersElectroList" [ngValue]="item">
+          {{ item }}
+        </option>
+
+        <option value="" class="select__element" disabled>---Cryo---</option>
+        <option *ngFor="let item of charactersCryoList" [ngValue]="item">
+          {{ item }}
+        </option>
+
+        <option value="" class="select__element" disabled>---Géo---</option>
+        <option *ngFor="let item of charactersGeoList" [ngValue]="item">
+          {{ item }}
+        </option>
+
+        <option value="" class="select__element" disabled>---Hydro---</option>
+        <option *ngFor="let item of charactersHydroList" [ngValue]="item">
+          {{ item }}
+        </option>
+      </select>
+    </form>
+
+    <div class="character" *ngIf="characterSelected != null">
+      <h2 class="character__name">
+        {{ characterSelectedName }}
+        <span class="character__name--light"
+          >- Rarity {{ characterSelectedRarity }}*</span
+        >
+      </h2>
+      <button class="all-btn btn-header">Add to my collection</button>
+      <div class="character__stats">
+        <img
+          src="{{ characterSelectedPic }}"
+          alt="character image"
+          class="character__stats--img"
+        />
+        <ul class="character__stats--stat">
+          <li>Attack : {{ characterFiltered[0].stats[0].attack }}</li>
+          <li>Defense : {{ characterFiltered[0].stats[0].defense }}</li>
+          <li>HP : {{ characterFiltered[0].stats[0].hp }}</li>
+          <li *ngIf="characterFiltered[0].stats[0].criticalRate != 0">
+            Critical rate: {{ characterFiltered[0].stats[0].criticalRate }}%
+          </li>
+          <li *ngIf="characterFiltered[0].stats[0].criticalDamage != 0">
+            Critical damage: {{ characterFiltered[0].stats[0].criticalDamage }}%
+          </li>
+          <li *ngIf="characterFiltered[0].stats[0].physicalDamage != 0">
+            Physical damage: {{ characterFiltered[0].stats[0].physicalDamage }}%
+          </li>
+          <li *ngIf="characterFiltered[0].stats[0].elementalMastery != 0">
+            Elemental Mastery:
+            {{ characterFiltered[0].stats[0].elementalMastery }}%
+          </li>
+          <li *ngIf="characterFiltered[0].stats[0].energieRefill != 0">
+            Energie refill: {{ characterFiltered[0].stats[0].energieRefill }}%
+          </li>
+          <li *ngIf="characterFiltered[0].stats[0].healingBonus != 0">
+            Healing bonus: {{ characterFiltered[0].stats[0].healingBonus }}%
+          </li>
+          <li *ngIf="characterFiltered[0].stats[0].cryoDamageBonus != 0">
+            Cryo damage bonus:
+            {{ characterFiltered[0].stats[0].cryoDamageBonus }}%
+          </li>
+          <li *ngIf="characterFiltered[0].stats[0].pyroDamageBonus != 0">
+            Pyro damage bonus:
+            {{ characterFiltered[0].stats[0].pyroDamageBonus }}%
+          </li>
+          <li *ngIf="characterFiltered[0].stats[0].geoDamageBonus != 0">
+            Geo damage bonus:
+            {{ characterFiltered[0].stats[0].geoDamageBonus }}%
+          </li>
+          <li *ngIf="characterFiltered[0].stats[0].anemoDamageBonus != 0">
+            Anemo damage bonus:
+            {{ characterFiltered[0].stats[0].anemoDamageBonus }}%
+          </li>
+          <li *ngIf="characterFiltered[0].stats[0].hydroDamageBonus != 0">
+            Hydro damage bonus:
+            {{ characterFiltered[0].stats[0].hydroDamageBonus }}%
+          </li>
+          <li *ngIf="characterFiltered[0].stats[0].electroDamageBonus != 0">
+            Electro damage bonus:
+            {{ characterFiltered[0].stats[0].electroDamageBonus }}%
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

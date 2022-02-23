@@ -1,0 +1,734 @@
+[
+  {
+    "id": 1,
+    "setArtifactName": "Gladiator's Finale",
+    "flower": [
+      {
+        "artifactName": "Gladiator's Nostalgia",
+        "artifactIcon": "./assets/icons/gladiator/flower-gladiator.png"
+      }
+    ],
+    "plume": [
+      {
+        "artifactName": "Gladiator's Destiny",
+        "artifactIcon": "./assets/icons/gladiator/plume-gladiator.png"
+      }
+    ],
+    "sands": [
+      {
+        "artifactName": "Gladiator's Longing",
+        "artifactIcon": "./assets/icons/gladiator/sands-gladiator.png"
+      }
+    ],
+    "goblet": [
+      {
+        "artifactName": "Gladiator's Intoxication",
+        "artifactIcon": "./assets/icons/gladiator/goblet-gladiator.png"
+      }
+    ],
+    "circlet": [
+      {
+        "artifactName": "Gladiator's Triumphus",
+        "artifactIcon": "./assets/icons/gladiator/circlet-gladiator.png"
+      }
+    ],
+    "twoPiecesBonus": "ATK +18%.",
+    "fourPiecesBonus": "If the wielder of this artifact set uses a Sword, Claymore or Polearm, increases their Normal Attack DMG by 35%."
+  },
+
+  {
+    "id": 2,
+    "setArtifactName": "Wanderer's Troupe",
+    "flower": [
+      {
+        "artifactName": "Troupe's Dawnlight",
+        "artifactIcon": "./assets/icons/bande_vagabonde/flower-bande-vagabonde.png"
+      }
+    ],
+    "plume": [
+      {
+        "artifactName": "Bard's Arrow Feather",
+        "artifactIcon": "./assets/icons/bande_vagabonde/plume-bande-vagabonde.png"
+      }
+    ],
+    "sands": [
+      {
+        "artifactName": "Concert's Final Hour",
+        "artifactIcon": "./assets/icons/bande_vagabonde/sands-bande-vagabonde.png"
+      }
+    ],
+    "goblet": [
+      {
+        "artifactName": "Wanderer's String-Kettle",
+        "artifactIcon": "./assets/icons/bande_vagabonde/goblet-bande-vagabonde.png"
+      }
+    ],
+    "circlet": [
+      {
+        "artifactName": "Conductor's Top Hat",
+        "artifactIcon": "./assets/icons/bande_vagabonde/circlet-bande-vagabonde.png"
+      }
+    ],
+    "twoPiecesBonus": "Increases Elemental Mastery by 80.",
+    "fourPiecesBonus": "Increases Charged Attack DMG by 35% if the character uses a Catalyst or Bow."
+  },
+
+  {
+    "id": 3,
+    "setArtifactName": "Thundersoother",
+    "flower": [
+      {
+        "artifactName": "Thundersoother's Heart",
+        "artifactIcon": "./assets/icons/dompteur_foudre/flower-dompteur-foudre.png"
+      }
+    ],
+    "plume": [
+      {
+        "artifactName": "Thundersoother's Plume",
+        "artifactIcon": "./assets/icons/dompteur_foudre/plume-dompteur-foudre.png"
+      }
+    ],
+    "sands": [
+      {
+        "artifactName": "Hour of Soothing Thunder",
+        "artifactIcon": "./assets/icons/dompteur_foudre/sands-dompteur-foudre.png"
+      }
+    ],
+    "goblet": [
+      {
+        "artifactName": "Thundersoother's goblet",
+        "artifactIcon": "./assets/icons/dompteur_foudre/goblet-dompteur-foudre.png"
+      }
+    ],
+    "circlet": [
+      {
+        "artifactName": "Thundersoother's diadem",
+        "artifactIcon": "./assets/icons/dompteur_foudre/circlet-dompteur-foudre.png"
+      }
+    ],
+    "twoPiecesBonus": "Electro RES increased by 40%.",
+    "fourPiecesBonus": "Increases DMG against opponents affected by Electro by 35%."
+  },
+
+  {
+    "id": 4,
+    "setArtifactName": "Thundering Fury",
+    "flower": [
+      {
+        "artifactName": "Thunderbird's Mercy",
+        "artifactIcon": "./assets/icons/colere_tonnerre/flower-colere-tonnerre.png"
+      }
+    ],
+    "plume": [
+      {
+        "artifactName": "Survivor of Catastrophe",
+        "artifactIcon": "./assets/icons/colere_tonnerre/plume-colere-tonnerre.png"
+      }
+    ],
+    "sands": [
+      {
+        "artifactName": "Hourglass of Thunder",
+        "artifactIcon": "./assets/icons/colere_tonnerre/sands-colere-tonnerre.png"
+      }
+    ],
+    "goblet": [
+      {
+        "artifactName": "Omen of Thunderstorm",
+        "artifactIcon": "./assets/icons/colere_tonnerre/goblet-colere-tonnerre.png"
+      }
+    ],
+    "circlet": [
+      {
+        "artifactName": "Thunder Summoner's Crown",
+        "artifactIcon": "./assets/icons/colere_tonnerre/circlet-colere-tonnerre.png"
+      }
+    ],
+    "twoPiecesBonus": "Electro DMG Bonus +15%.",
+    "fourPiecesBonus": "Increases damage caused by Overloaded, Electro-Charged and Superconduct by 40%. Triggering such effects decreases Elemental Skill CD by 1s. Can only occur once every 0.8s."
+  },
+
+  {
+    "id": 5,
+    "setArtifactName": "Maiden Beloved",
+    "flower": [
+      {
+        "artifactName": "Maiden's Distant Love",
+        "artifactIcon": "./assets/icons/amour_cheri/flower-amour-cheri.png"
+      }
+    ],
+    "plume": [
+      {
+        "artifactName": "Maiden's Heart-stricken Infatuation",
+        "artifactIcon": "./assets/icons/amour_cheri/plume-amour-cheri.png"
+      }
+    ],
+    "sands": [
+      {
+        "artifactName": "Maiden's Passing Youth",
+        "artifactIcon": "./assets/icons/amour_cheri/sands-amour-cheri.png"
+      }
+    ],
+    "goblet": [
+      {
+        "artifactName": "Maiden's Fleeting Leisure",
+        "artifactIcon": "./assets/icons/amour_cheri/goblet-amour-cheri.png"
+      }
+    ],
+    "circlet": [
+      {
+        "artifactName": "Maiden's Fading Beauty",
+        "artifactIcon": "./assets/icons/amour_cheri/circlet-amour-cheri.png"
+      }
+    ],
+    "twoPiecesBonus": "Character Healing Effectiveness +15%",
+    "fourPiecesBonus": "Using an Elemental Skill or Burst increases healing received by all party members by 20% for 10s."
+  },
+
+  {
+    "id": 6,
+    "setArtifactName": "Viridescent Venerer",
+    "flower": [
+      {
+        "artifactName": "In Remembrance of Viridescent Fields",
+        "artifactIcon": "./assets/icons/verte_chasseuse/flower-verte-chasseuse.png"
+      }
+    ],
+    "plume": [
+      {
+        "artifactName": "Viridescent Arrow Feather",
+        "artifactIcon": "./assets/icons/verte_chasseuse/plume-verte-chasseuse.png"
+      }
+    ],
+    "sands": [
+      {
+        "artifactName": "Viridescent Venerer's Determination",
+        "artifactIcon": "./assets/icons/verte_chasseuse/sands-verte-chasseuse.png"
+      }
+    ],
+    "goblet": [
+      {
+        "artifactName": "Viridescent Venerer's Vessel",
+        "artifactIcon": "./assets/icons/verte_chasseuse/goblet-verte-chasseuse.png"
+      }
+    ],
+    "circlet": [
+      {
+        "artifactName": "Viridescent Venerer's Diadem",
+        "artifactIcon": "./assets/icons/verte_chasseuse/circlet-verte-chasseuse.png"
+      }
+    ],
+    "twoPiecesBonus": "Anemo DMG Bonus +15%",
+    "fourPiecesBonus": "Increases Swirl DMG by 60%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s."
+  },
+
+  {
+    "id": 7,
+    "setArtifactName": "Crimson Witch of Flames",
+    "flower": [
+      {
+        "artifactName": "Witch's Flower of Blaze",
+        "artifactIcon": "./assets/icons/sorciere-flamme/flower-sorciere.png"
+      }
+    ],
+    "plume": [
+      {
+        "artifactName": "Witch's Ever-Burning Plume",
+        "artifactIcon": "./assets/icons/sorciere-flamme/plume-sorciere.png"
+      }
+    ],
+    "sands": [
+      {
+        "artifactName": "Witch's End Time",
+        "artifactIcon": "./assets/icons/sorciere-flamme/sands-sorciere.png"
+      }
+    ],
+    "goblet": [
+      {
+        "artifactName": "Witch's Heart Flames",
+        "artifactIcon": "./assets/icons/sorciere-flamme/goblet-sorciere.png"
+      }
+    ],
+    "circlet": [
+      {
+        "artifactName": "Witch's Scorching Hat",
+        "artifactIcon": "./assets/icons/sorciere-flamme/circlet-sorciere.png"
+      }
+    ],
+    "twoPiecesBonus": "Pyro DMG Bonus +15%",
+    "fourPiecesBonus": "Increases Overloaded and Burning DMG by 40%. Increases Vaporize and Melt DMG by 15%. Using an Elemental Skill increases the 2-Piece Set Bonus by 50% of its starting value for 10s. Max 3 stacks."
+  },
+
+  {
+    "id": 8,
+    "setArtifactName": "Lavawalker",
+    "flower": [
+      {
+        "artifactName": "Lavawalker's Resolution",
+        "artifactIcon": "./assets/icons/sage_traverse_feu/flower-sage-traverse-feu.png"
+      }
+    ],
+    "plume": [
+      {
+        "artifactName": "Lavawalker's Salvation",
+        "artifactIcon": "./assets/icons/sage_traverse_feu/plume-sage-traverse-feu.png"
+      }
+    ],
+    "sands": [
+      {
+        "artifactName": "Lavawalker's Torment",
+        "artifactIcon": "./assets/icons/sage_traverse_feu/sands-sage-traverse-feu.png"
+      }
+    ],
+    "goblet": [
+      {
+        "artifactName": "Lavawalker's Epiphany",
+        "artifactIcon": "./assets/icons/sage_traverse_feu/goblet-sage-traverse-feu.png"
+      }
+    ],
+    "circlet": [
+      {
+        "artifactName": "Lavawalker's Wisdow",
+        "artifactIcon": "./assets/icons/sage_traverse_feu/circlet-sage-traverse-feu.png"
+      }
+    ],
+    "twoPiecesBonus": "Pyro RES increased by 40%.",
+    "fourPiecesBonus": "Increases DMG against opponents affected by Pyro by 35%."
+  },
+
+  {
+    "id": 9,
+    "setArtifactName": "Noblesse Oblige",
+    "flower": [
+      {
+        "artifactName": "Royal Flora",
+        "artifactIcon": "./assets/icons/ancien_rituel_royal/flower-ancien-rituel-royal.png"
+      }
+    ],
+    "plume": [
+      {
+        "artifactName": "Royal Plume",
+        "artifactIcon": "./assets/icons/ancien_rituel_royal/plume-ancien-rituel-royal.png"
+      }
+    ],
+    "sands": [
+      {
+        "artifactName": "Royal Pocket Watch",
+        "artifactIcon": "./assets/icons/ancien_rituel_royal/sands-ancien-rituel-royal.png"
+      }
+    ],
+    "goblet": [
+      {
+        "artifactName": "Royal Silver Um",
+        "artifactIcon": "./assets/icons/ancien_rituel_royal/goblet-ancien-rituel-royal.png"
+      }
+    ],
+    "circlet": [
+      {
+        "artifactName": "Royal Masque",
+        "artifactIcon": "./assets/icons/ancien_rituel_royal/circlet-ancien-rituel-royal.png"
+      }
+    ],
+    "twoPiecesBonus": "Elemental Burst DMG +20%",
+    "fourPiecesBonus": "Using an Elemental Burst increases all party members' ATK by 20% for 12s. This effect cannot stack."
+  },
+
+  {
+    "id": 10,
+    "setArtifactName": "Bloodstained Chivalry",
+    "flower": [
+      {
+        "artifactName": "Bloodstained Flower of Iron",
+        "artifactIcon": "./assets/icons/chevalerie_ensanglantee/flower-chevalerie-ensanglante.png"
+      }
+    ],
+    "plume": [
+      {
+        "artifactName": "Bloodstained Black Plume",
+        "artifactIcon": "./assets/icons/chevalerie_ensanglantee/plume-chevalerie-ensanglante.png"
+      }
+    ],
+    "sands": [
+      {
+        "artifactName": "Bloodstained Final Hour",
+        "artifactIcon": "./assets/icons/chevalerie_ensanglantee/sands-chevalerie-ensanglante.png"
+      }
+    ],
+    "goblet": [
+      {
+        "artifactName": "Bloodstained Chevalier's Goblet",
+        "artifactIcon": "./assets/icons/chevalerie_ensanglantee/goblet-chevalerie-ensanglante.png"
+      }
+    ],
+    "circlet": [
+      {
+        "artifactName": "Bloodstained Iron Mask",
+        "artifactIcon": "./assets/icons/chevalerie_ensanglantee/circlet-chevalerie-ensanglante.png"
+      }
+    ],
+    "twoPiecesBonus": "Physical DMG Bonus +25%",
+    "fourPiecesBonus": "After defeating an opponent, increases Charged Attack DMG by 50%, and reduces its Stamina cost to 0 for 10s. Also triggers with wild animals such as boars, squirrels and frogs."
+  },
+
+  {
+    "id": 11,
+    "setArtifactName": "Archaic Petra",
+    "flower": [
+      {
+        "artifactName": "Flower of Creviced Cliff",
+        "artifactIcon": "./assets/icons/roche_ancienne/flower-roche-ancienne.png"
+      }
+    ],
+    "plume": [
+      {
+        "artifactName": "Feather of Jagged Peaks",
+        "artifactIcon": "./assets/icons/roche_ancienne/plume-roche-ancienne.png"
+      }
+    ],
+    "sands": [
+      {
+        "artifactName": "Sundial of Enduring Jade",
+        "artifactIcon": "./assets/icons/roche_ancienne/sands-roche-ancienne.png"
+      }
+    ],
+    "goblet": [
+      {
+        "artifactName": "Goblet of Chiseled Crag",
+        "artifactIcon": "./assets/icons/roche_ancienne/goblet-roche-ancienne.png"
+      }
+    ],
+    "circlet": [
+      {
+        "artifactName": "Mask of Solitude Basalt",
+        "artifactIcon": "./assets/icons/roche_ancienne/circlet-roche-ancienne.png"
+      }
+    ],
+    "twoPiecesBonus": "Geo DMG Bonus +15%",
+    "fourPiecesBonus": "Upon obtaining an Elemental Shard created through a Crystallize Reaction, all party members gain 35% DMG Bonus for that particular element for 10s. Only one form of Elemental DMG Bonus can be gained in this manner at any one time."
+  },
+  {
+    "id": 12,
+    "setArtifactName": "Retracing Bolide",
+    "flower": [
+      {
+        "artifactName": "Summer Night's Bloom",
+        "artifactIcon": "./assets/icons/meteore_inverse/flower-meteore-inverse.png"
+      }
+    ],
+    "plume": [
+      {
+        "artifactName": "Summer Night's Finale",
+        "artifactIcon": "./assets/icons/meteore_inverse/plume-meteore-inverse.png"
+      }
+    ],
+    "sands": [
+      {
+        "artifactName": "Summer Night's Moment",
+        "artifactIcon": "./assets/icons/meteore_inverse/sands-meteore-inverse.png"
+      }
+    ],
+    "goblet": [
+      {
+        "artifactName": "Summer Night's Waterballoon",
+        "artifactIcon": "./assets/icons/meteore_inverse/goblet-meteore-inverse.png"
+      }
+    ],
+    "circlet": [
+      {
+        "artifactName": "Summer Night's Mask",
+        "artifactIcon": "./assets/icons/meteore_inverse/circlet-meteore-inverse.png"
+      }
+    ],
+    "twoPiecesBonus": "Increases Shield Strength by 35%.",
+    "fourPiecesBonus": "While protected by a shield, gain an additional 40% Normal and Charged Attack DMG."
+  },
+  {
+    "id": 13,
+    "setArtifactName": "Blizzard Strayer",
+    "flower": [
+      {
+        "artifactName": "Snowswept Memory",
+        "artifactIcon": "./assets/icons/briseur_glace/flower-briseur-glace.png"
+      }
+    ],
+    "plume": [
+      {
+        "artifactName": "Ucebreaker's Resolve",
+        "artifactIcon": "./assets/icons/briseur_glace/plume-briseur-glace.png"
+      }
+    ],
+    "sands": [
+      {
+        "artifactName": "Frozen Homeland's Demise",
+        "artifactIcon": "./assets/icons/briseur_glace/sands-briseur-glace.png"
+      }
+    ],
+    "goblet": [
+      {
+        "artifactName": "Frost-Weaved Dignity",
+        "artifactIcon": "./assets/icons/briseur_glace/goblet-briseur-glace.png"
+      }
+    ],
+    "circlet": [
+      {
+        "artifactName": "Broken Rime's Echo",
+        "artifactIcon": "./assets/icons/briseur_glace/circlet-briseur-glace.png"
+      }
+    ],
+    "twoPiecesBonus": "Cryo DMG Bonus +15%",
+    "fourPiecesBonus": "When a character attacks an opponent affected by Cryo, their CRIT Rate is increased by 20%. If the opponent is Frozen, CRIT Rate is increased by an additional 20%."
+  },
+  {
+    "id": 14,
+    "setArtifactName": "Heart of Depth",
+    "flower": [
+      {
+        "artifactName": "Gilded Corsage",
+        "artifactIcon": "./assets/icons/ame_naufrage/flower-ame-naufrage.png"
+      }
+    ],
+    "plume": [
+      {
+        "artifactName": "Gust of Nostalgia",
+        "artifactIcon": "./assets/icons/ame_naufrage/plume-ame-naufrage.png"
+      }
+    ],
+    "sands": [
+      {
+        "artifactName": "Copper Compass",
+        "artifactIcon": "./assets/icons/ame_naufrage/sands-ame-naufrage.png"
+      }
+    ],
+    "goblet": [
+      {
+        "artifactName": "Goblet of Thundering Deep",
+        "artifactIcon": "./assets/icons/ame_naufrage/goblet-ame-naufrage.png"
+      }
+    ],
+    "circlet": [
+      {
+        "artifactName": "Wine-Stained Tricorne",
+        "artifactIcon": "./assets/icons/ame_naufrage/circlet-ame-naufrage.png"
+      }
+    ],
+    "twoPiecesBonus": "Hydro DMG Bonus +15%",
+    "fourPiecesBonus": "After using an Elemental Skill, increases Normal Attack and Charged Attack DMG by 30% for 15s."
+  },
+  {
+    "id": 15,
+    "setArtifactName": "Tenacity of the Millelith",
+    "flower": [
+      {
+        "artifactName": "Flower of Accolades",
+        "artifactIcon": "./assets/icons/tenacite-millelithe/flower-tenacite-millelithe.png"
+      }
+    ],
+    "plume": [
+      {
+        "artifactName": "Ceremonial War-Plume",
+        "artifactIcon": "./assets/icons/tenacite-millelithe/plume-tenacite-millelithe.png"
+      }
+    ],
+    "sands": [
+      {
+        "artifactName": "Orichalceous Time-Dial",
+        "artifactIcon": "./assets/icons/tenacite-millelithe/sands-tenacite-millelithe.png"
+      }
+    ],
+    "goblet": [
+      {
+        "artifactName": "Noble's Pledging Vessel",
+        "artifactIcon": "./assets/icons/tenacite-millelithe/goblet-tenacite-millelithe.png"
+      }
+    ],
+    "circlet": [
+      {
+        "artifactName": "General's Ancient Helm",
+        "artifactIcon": "./assets/icons/tenacite-millelithe/circlet-tenacite-millelithe.png"
+      }
+    ],
+    "twoPiecesBonus": "HP +20%",
+    "fourPiecesBonus": "When an Elemental Skill hits an opponent, the ATK of all nearby party members is increased by 20% and their Shield Strength is increased by 30% for 3s. This effect can be triggered once every 0.5s. This effect can still be triggered even when the character who is using this artifact set is not on the field."
+  },
+
+  {
+    "id": 16,
+    "setArtifactName": "Pale Flame",
+    "flower": [
+      {
+        "artifactName": "Stainless Bloom",
+        "artifactIcon": "./assets/icons/flamme_bleme/flower-flamme-bleme.png"
+      }
+    ],
+    "plume": [
+      {
+        "artifactName": "Wise Doctor's Pinion",
+        "artifactIcon": "./assets/icons/flamme_bleme/plume-flamme-bleme.png"
+      }
+    ],
+    "sands": [
+      {
+        "artifactName": "Moment of Cessation",
+        "artifactIcon": "./assets/icons/flamme_bleme/sands-flamme-bleme.png"
+      }
+    ],
+    "goblet": [
+      {
+        "artifactName": "Surpassing Cup",
+        "artifactIcon": "./assets/icons/flamme_bleme/goblet-flamme-bleme.png"
+      }
+    ],
+    "circlet": [
+      {
+        "artifactName": "Mocking Mask",
+        "artifactIcon": "./assets/icons/flamme_bleme/circlet-flamme-bleme.png"
+      }
+    ],
+    "twoPiecesBonus": "Physical DMG Bonus +25%",
+    "fourPiecesBonus": "When an Elemental Skill hits an opponent, ATK is increased by 9% for 7s. This effect stacks up to 2 times and can be triggered once every 0.3s. Once 2 stacks are reached, the 2-set effect is increased by 100%."
+  },
+
+  {
+    "id": 17,
+    "setArtifactName": "Shimenawa's Reminiscence",
+    "flower": [
+      {
+        "artifactName": "Entangling Bloom",
+        "artifactIcon": "./assets/icons/reminiscence_nostalgique/flower-reminiscence-nostalgique.png"
+      }
+    ],
+    "plume": [
+      {
+        "artifactName": "Shaft of Remembrance",
+        "artifactIcon": "./assets/icons/reminiscence_nostalgique/plume-reminiscence-nostalgique.png"
+      }
+    ],
+    "sands": [
+      {
+        "artifactName": "Morning Dew's Moment",
+        "artifactIcon": "./assets/icons/reminiscence_nostalgique/sands-reminiscence-nostalgique.png"
+      }
+    ],
+    "goblet": [
+      {
+        "artifactName": "Hopeful Heart",
+        "artifactIcon": "./assets/icons/reminiscence_nostalgique/goblet-reminiscence-nostalgique.png"
+      }
+    ],
+    "circlet": [
+      {
+        "artifactName": "Capricious Visage",
+        "artifactIcon": "./assets/icons/reminiscence_nostalgique/circlet-reminiscence-nostalgique.png"
+      }
+    ],
+    "twoPiecesBonus": "ATK +18%",
+    "fourPiecesBonus": "When casting an Elemental Skill, if the character has 15 or more Energy, they lose 15 Energy and Normal/Charged/Plunging Attack DMG is increased by 50% for 10s. This effect will not trigger again during that duration."
+  },
+  {
+    "id": 18,
+    "setArtifactName": "Emblem of Severed Fate",
+    "flower": [
+      {
+        "artifactName": "Magnificent Tsuba",
+        "artifactIcon": "./assets/icons/embleme_destin_brise/flower-embleme-destin-brise.png"
+      }
+    ],
+    "plume": [
+      {
+        "artifactName": "Sundered Feather",
+        "artifactIcon": "./assets/icons/embleme_destin_brise/plume-embleme-destin-brise.png"
+      }
+    ],
+    "sands": [
+      {
+        "artifactName": "Storm Cage",
+        "artifactIcon": "./assets/icons/embleme_destin_brise/sands-embleme-destin-brise.png"
+      }
+    ],
+    "goblet": [
+      {
+        "artifactName": "Scarlet Vessel",
+        "artifactIcon": "./assets/icons/embleme_destin_brise/goblet-embleme-destin-brise.png"
+      }
+    ],
+    "circlet": [
+      {
+        "artifactName": "Ornate Kabuto",
+        "artifactIcon": "./assets/icons/embleme_destin_brise/circlet-embleme-destin-brise.png"
+      }
+    ],
+    "twoPiecesBonus": "Energy Recharge +20%",
+    "fourPiecesBonus": "Increases Elemental Burst DMG by 25% of Energy Recharge. A maximum of 75% bonus DMG can be obtained in this way."
+  },
+  {
+    "id": 19,
+    "setArtifactName": "Husk of Opulent Dreams",
+    "flower": [
+      {
+        "artifactName": "Bloom Times",
+        "artifactIcon": "./assets/icons/coquille_reves_oppulents/flower-coquille-reves-oppulents.png"
+      }
+    ],
+    "plume": [
+      {
+        "artifactName": "Plume of Luxury",
+        "artifactIcon": "./assets/icons/coquille_reves_oppulents/plume-coquille-reves-oppulents.png"
+      }
+    ],
+    "sands": [
+      {
+        "artifactName": "Song of Life",
+        "artifactIcon": "./assets/icons/coquille_reves_oppulents/sands-coquille-reves-oppulents.png"
+      }
+    ],
+    "goblet": [
+      {
+        "artifactName": "Calabash of Awakening",
+        "artifactIcon": "./assets/icons/coquille_reves_oppulents/goblet-coquille-reves-oppulents.png"
+      }
+    ],
+    "circlet": [
+      {
+        "artifactName": "Skeletal Hat",
+        "artifactIcon": "./assets/icons/coquille_reves_oppulents/circlet-coquille-reves-oppulents.png"
+      }
+    ],
+    "twoPiecesBonus": "DEF +30%",
+    "fourPiecesBonus": "A character equipped with this Artifact set will obtain the Curiosity effect in the following conditions :When on the field, the character gains 1 stack after hitting an opponent with a Geo attack, triggering a maximum of once every 0.3s.When off the field, the character gains 1 stack every 3s.Curiosity can stack up to 4 times, each providing 6% DEF and a 6% Geo DMG Bonus.When 6 seconds pass without gaining a Curiosity stack, 1 stack is lost."
+  },
+  {
+    "id": 20,
+    "setArtifactName": "Ocean-Hued Clam",
+    "flower": [
+      {
+        "artifactName": "Sea-Dyed Blossom",
+        "artifactIcon": "./assets/icons/palourde/flower-palourde-oceanique.png"
+      }
+    ],
+    "plume": [
+      {
+        "artifactName": "Deep Palace's Plume",
+        "artifactIcon": "./assets/icons/palourde/plume-palourde-oceanique.png"
+      }
+    ],
+    "sands": [
+      {
+        "artifactName": "Cowry of Parting",
+        "artifactIcon": "./assets/icons/palourde/sands-palourde-oceanique.png"
+      }
+    ],
+    "goblet": [
+      {
+        "artifactName": "Pearl Cage",
+        "artifactIcon": "./assets/icons/palourde/goblet-palourde-oceanique.png"
+      }
+    ],
+    "circlet": [
+      {
+        "artifactName": "Crown of Watatsumi",
+        "artifactIcon": "./assets/icons/palourde/circlet-palourde-oceanique.png"
+      }
+    ],
+    "twoPiecesBonus": "Healing Bonus +15%.",
+    "fourPiecesBonus": "When the character equipping this artifact set heals a character in the party, a Sea-Dyed Foam will appear for 3 seconds, accumulating the amount of HP recovered from healing (including overflow healing).At the end of the duration, the Sea-Dyed Foam will explode, dealing DMG to nearby opponents based on 90% of the accumulated healing.(This DMG is calculated similarly to Reactions such as Electro-Charged, and Superconduct, but it is not affected by Elemental Mastery, Character Levels, or Reaction DMG Bonuses).Only one Sea-Dyed Foam can be produced every 3.5 seconds.Each Sea-Dyed Foam can accumulate up to 30,000 HP (including overflow healing).There can be no more than one Sea-Dyed Foam active at any given time.This effect can still be triggered even when the character who is using this artifact set is not on the field."
+  }
+]

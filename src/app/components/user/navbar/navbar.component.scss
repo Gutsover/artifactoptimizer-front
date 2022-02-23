@@ -1,0 +1,96 @@
+@import "../../../../styles.scss";
+
+.container {
+  width: 100%;
+  position: relative;
+  background-color: rgba($light, 0.4);
+
+  #check {
+    display: none;
+  }
+
+  label #btn,
+  label #cancel {
+    position: absolute;
+    cursor: pointer;
+    background: $dark;
+    z-index: 900;
+  }
+
+  label #btn {
+    left: 40px;
+    top: 25px;
+    font-size: 35px;
+    color: $light;
+    padding: 6px 12px;
+    transition: all 0.5s;
+  }
+
+  label #cancel {
+    z-index: 1111;
+    left: -195px;
+    top: 17px;
+    font-size: 30px;
+    color: $dark;
+    background-color: transparent;
+    padding: 4px 9px;
+    transition: all 0.5s ease;
+  }
+
+  #check:checked ~ .container__navbar {
+    left: 0;
+  }
+
+  #check:checked ~ label #btn {
+    left: 300px;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  #check:checked ~ label #cancel {
+    left: 250px;
+  }
+
+  .container__navbar {
+    position: fixed;
+    z-index: 1000;
+    left: -300px;
+    width: 300px;
+    height: 100%;
+    background: rgba($light, 0.9);
+    color: rgba($dark, 0.8);
+    transition: all 0.5s ease;
+    .top {
+      height: 73px;
+      // box-shadow: 0px 1px 2px rgb(0 0 0 / 12%);
+    }
+    .container__navbar__items {
+      padding: 1rem;
+      ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        li {
+          width: 100%;
+          padding: 1rem 0;
+          a {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: $comfortaa;
+            font-size: 1.2rem;
+            color: $dark;
+            cursor: pointer;
+            transition: all 0.3s ease-out;
+            img {
+              height: 0.7rem;
+            }
+            &:hover {
+              color: $blueLight;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+<div class="container" *ngIf="isLoggedIn == true">
+  <input type="checkbox" id="check" />
+  <label for="check">
+    <i class="fas fa-bars" id="btn"></i>
+    <i class="fas fa-times" id="cancel"></i>
+  </label>
+
+  <nav class="container__navbar">
+    <div class="top"></div>
+    <div class="container__navbar__items">
+      <ul>
+        <li>
+          <a
+            [routerLink]="['/user/artifacts']"
+            routerLinkActive="router-link-active"
+            >My artifacts
+            <img src="./../../../../assets/images/chevron.png" alt="" />
+          </a>
+        </li>
+
+        <li>
+          <a
+            [routerLink]="['/user/characters']"
+            routerLinkActive="router-link-active"
+            >My characters
+            <img src="./../../../../assets/images/chevron.png" alt="" />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>

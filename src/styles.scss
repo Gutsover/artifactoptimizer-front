@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Comfortaa&family=Manrope&display=swap');
+
+$dark: #040404ff;
+$blue: #018884ff;
+$blueDark: #027572ff;
+$blueLight: #00c2bcff;
+$light: #f4f4f9;
+$alert: #c23616;
+
+$gradient: linear-gradient(120deg, $blueLight 0%, $blue 100%);
+$gradientLight: linear-gradient(120deg, $light 0%, $blueLight 150%);
+$gradientAllView: linear-gradient(100deg, $light 0%, $dark 100%);
+
+$comfortaa: "Comfortaa", cursive;
+$manrope: "Manrope", sans-serif;
+$akaya: 'Akaya Telivigala', cursive;
+
+html {
+  background-color: $dark;
+  color: $light;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: $manrope;
+  font-size: 16px;
+  padding: 0;
+}
+
+.view__container__page {
+  .view__container__main {
+    position: relative;
+  }
+}
+
+h1 {
+  margin: 2rem 1rem 2rem 1rem;
+  font-size: 2.4rem;
+  text-align: center;
+  color: $blueLight;
+}
+
+h2 {
+  margin: 1rem 1rem 1rem 1rem;
+  font-size: 1.8rem;
+  color: $blueLight;
+}
+
+strong {
+  font-weight: 100;
+}
+
+.pad {
+  padding: 2rem;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+select {
+  height: 2.5rem;
+  padding: 0.5rem;
+  outline: none;
+  border-radius: 3px;
+}
+
+input {
+  border: none;
+  outline: none;
+  height: 2.5rem;
+  padding: 0.5rem;
+  background-color: $dark;
+  border-bottom: 1px solid $light;
+  color: $light;
+  font-size: 1.1rem;
+}
+
+.all-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: 5rem;
+  padding: 0.5rem;
+  font-family: $manrope;
+  transition: all 0.3s ease-out;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  &:active {
+    transform: scale(1.1);
+  }
+}
+
+.btn-header {
+  background-color: $blueDark;
+  color: $light;
+  border: 1px solid $blueDark;
+  &:hover {
+    background-color: $light;
+    color: $blueDark;
+    border: 1px solid $blueDark;
+  }
+}
+
+.btn-main {
+  border: 2px solid $light;
+  background-color: transparent;
+  color: $light;
+  text-transform: uppercase;
+  &:hover {
+    background-color: $blueDark;
+    border: 1px solid $blueDark;
+  }
+}
+
+.marginTop {
+  margin-top: 3rem;
+}
+
+.alert {
+  color: $alert;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}

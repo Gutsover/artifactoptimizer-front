@@ -1,0 +1,1036 @@
+[
+  {
+    "id": 1,
+    "name": "Jean",
+    "stats": [
+      {
+        "attack": 239.18,
+        "defense": 768.55,
+        "hp": 14675.09,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 22.2,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Kaedehara Kazuha",
+    "stats": [
+      {
+        "attack": 296.58,
+        "defense": 806.98,
+        "hp": 13348.04,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 115.2,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Sayu",
+    "stats": [
+      {
+        "attack": 244.26,
+        "defense": 744.63,
+        "hp": 11853.66,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 96.0,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Sucrose",
+    "stats": [
+      {
+        "attack": 169.92,
+        "defense": 703.0,
+        "hp": 9243.68,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 24.0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Venti",
+    "stats": [
+      {
+        "attack": 263.1,
+        "defense": 668.64,
+        "hp": 10531.48,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 32.0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Xiao",
+    "stats": [
+      {
+        "attack": 349.2,
+        "defense": 799.3,
+        "hp": 12735.75,
+        "criticalRate": 24.2,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Aloy",
+    "stats": [
+      {
+        "attack": 233.92,
+        "defense": 676.33,
+        "hp": 10898.86,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 28.8,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Chongyun",
+    "stats": [
+      {
+        "attack": 276.54,
+        "defense": 648.4,
+        "hp": 10983.66,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Diona",
+    "stats": [
+      {
+        "attack": 212.4,
+        "defense": 600.62,
+        "hp": 9569.93,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 24.0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Eula",
+    "stats": [
+      {
+        "attack": 342.03,
+        "defense": 750.88,
+        "hp": 13225.58,
+        "criticalRate": 5.0,
+        "criticalDamage": 88.4,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Ganyu",
+    "stats": [
+      {
+        "attack": 334.85,
+        "defense": 630.21,
+        "hp": 9796.73,
+        "criticalRate": 5.0,
+        "criticalDamage": 88.4,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Kaeya",
+    "stats": [
+      {
+        "attack": 223.02,
+        "defense": 791.72,
+        "hp": 11636.16,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 26.7,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Kamisato Ayaka",
+    "stats": [
+      {
+        "attack": 342.03,
+        "defense": 783.93,
+        "hp": 12858.21,
+        "criticalRate": 5.0,
+        "criticalDamage": 88.4,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Qiqi",
+    "stats": [
+      {
+        "attack": 287.01,
+        "defense": 922.27,
+        "hp": 12368.37,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 22.2,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Rosaria",
+    "stats": [
+      {
+        "attack": 297.61,
+        "defense": 709.82,
+        "hp": 12288.65,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Shenhe",
+    "stats": [
+      {
+        "attack": 391.24,
+        "defense": 830.04,
+        "hp": 12992.91,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Beidou",
+    "stats": [
+      {
+        "attack": 225.14,
+        "defense": 648.4,
+        "hp": 13049.9,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 24.0
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Fischl",
+    "stats": [
+      {
+        "attack": 302.56,
+        "defense": 593.79,
+        "hp": 9189.3,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Keqing",
+    "stats": [
+      {
+        "attack": 322.89,
+        "defense": 799.3,
+        "hp": 13103.13,
+        "criticalRate": 5.0,
+        "criticalDamage": 88.4,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Kujou Sara",
+    "stats": [
+      {
+        "attack": 242.31,
+        "defense": 627.92,
+        "hp": 9569.93,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Lisa",
+    "stats": [
+      {
+        "attack": 231.51,
+        "defense": 573.32,
+        "hp": 9569.93,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 96,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Raiden Shogun",
+    "stats": [
+      {
+        "attack": 337.24,
+        "defense": 789.31,
+        "hp": 12907.19,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 32.0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Razor",
+    "stats": [
+      {
+        "attack": 233.64,
+        "defense": 750.77,
+        "hp": 11962.41,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 30.0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Arataki Itto",
+    "stats": [
+      {
+        "attack": 227.22,
+        "defense": 959.16,
+        "hp": 12858.21,
+        "criticalRate": 24.2,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Albedo",
+    "stats": [
+      {
+        "attack": 251.14,
+        "defense": 876.15,
+        "hp": 13225.58,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 28.8,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Gorou",
+    "stats": [
+      {
+        "attack": 182.66,
+        "defense": 648.4,
+        "hp": 9569.93,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 24.0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Ningguang",
+    "stats": [
+      {
+        "attack": 212.4,
+        "defense": 573.32,
+        "hp": 9787.42,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 24.0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Noelle",
+    "stats": [
+      {
+        "attack": 191.16,
+        "defense": 1038.11,
+        "hp": 12071.16,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Yun Jin",
+    "stats": [
+      {
+        "attack": 191.16,
+        "defense": 734.39,
+        "hp": 10657.42,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 26.7,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Zhongli",
+    "stats": {
+      "attack": 251.14,
+      "defense": 737.81,
+      "hp": 14695.09,
+      "criticalRate": 5.0,
+      "criticalDamage": 50.0,
+      "physicalDamage": 0,
+      "elementalMastery": 0,
+      "energieRefill": 0,
+      "healingBonus": 0,
+      "cryoDamageBonus": 0,
+      "pyroDamageBonus": 0,
+      "geoDamageBonus": 28.8,
+      "anemoDamageBonus": 0,
+      "hydroDamageBonus": 0,
+      "electroDamageBonus": 0
+    }
+  },
+  {
+    "id": 31,
+    "name": "Barbara",
+    "stats": [
+      {
+        "attack": 159.3,
+        "defense": 668.87,
+        "hp": 11744.9,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Mona",
+    "stats": [
+      {
+        "attack": 287.01,
+        "defense": 653.27,
+        "hp": 10409.02,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 32.0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Sangonomiya Kokomi",
+    "stats": [
+      {
+        "attack": 234.39,
+        "defense": 657.11,
+        "hp": 13470.5,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 28.8,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Tartaglia",
+    "stats": [
+      {
+        "attack": 301.36,
+        "defense": 814.67,
+        "hp": 13103.13,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 28.8,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Xingqiu",
+    "stats": [
+      {
+        "attack": 250.2,
+        "defense": 757.6,
+        "hp": 10222.42,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Amber",
+    "stats": [
+      {
+        "attack": 276.54,
+        "defense": 600.62,
+        "hp": 9461.18,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Bennett",
+    "stats": [
+      {
+        "attack": 191.16,
+        "defense": 771.25,
+        "hp": 12397.4,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 26.7,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Diluc",
+    "stats": [
+      {
+        "attack": 334.85,
+        "defense": 783.93,
+        "hp": 12980.67,
+        "criticalRate": 24.2,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Hu Tao",
+    "stats": [
+      {
+        "attack": 106.43,
+        "defense": 876.15,
+        "hp": 15552.31,
+        "criticalRate": 5.0,
+        "criticalDamage": 88.4,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Klee",
+    "stats": [
+      {
+        "attack": 310.93,
+        "defense": 614.84,
+        "hp": 10286.57,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 28.8,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Thoma",
+    "stats": [
+      {
+        "attack": 250.2,
+        "defense": 750.77,
+        "hp": 10331.17,
+        "atkBonus": 24.0,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Xiangling",
+    "stats": [
+      {
+        "attack": 225.14,
+        "defense": 668.87,
+        "hp": 10874.91,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 96,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Xinyan",
+    "stats": [
+      {
+        "attack": 308.14,
+        "defense": 798.55,
+        "hp": 11201.16,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 28.8,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Yanfei",
+    "stats": [
+      {
+        "attack": 240.01,
+        "defense": 586.97,
+        "hp": 9352.43,
+        "criticalRate": 5.0,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 24.0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Yoimiya",
+    "stats": [
+      {
+        "attack": 322.89,
+        "defense": 614.84,
+        "hp": 10164.11,
+        "criticalRate": 24.2,
+        "criticalDamage": 50.0,
+        "physicalDamage": 0,
+        "elementalMastery": 0,
+        "energieRefill": 0,
+        "healingBonus": 0,
+        "cryoDamageBonus": 0,
+        "pyroDamageBonus": 0,
+        "geoDamageBonus": 0,
+        "anemoDamageBonus": 0,
+        "hydroDamageBonus": 0,
+        "electroDamageBonus": 0
+      }
+    ]
+  }
+]

@@ -1,0 +1,75 @@
+@import "../../../../styles.scss";
+
+.container {
+  width: 100%;
+  position: relative;
+  .container__form {
+    width: 100%;
+    padding: 2rem;
+    form {
+      padding: 1rem;
+      .form__elt {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        select {
+          width: 16.5rem;
+        }
+        input {
+          width:16.5rem
+        }
+        &--multiple {
+          display: flex;
+          select {
+            width: 5.5rem;
+          }
+          input {
+            width: 11rem;
+          }
+        }
+      }
+    }
+  }
+  .container__newArtifact {
+    background-color: $light;
+    color: $dark;
+    border: 1px solid $blueLight;
+    border-radius: 3px;
+    margin-bottom: 2rem;
+    max-width: 350px;
+    max-height: 350px;
+    &--title {
+      border-bottom: 1px solid $blueDark;
+      h4 {
+        color: $blueLight;
+        padding: 1rem;
+        font-weight: bold;
+      }
+    }
+    &--img {
+      width: 70px;
+      height: 70px;
+      border-radius: 3px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffbe76;
+    }
+    &--body {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  .container {
+    width: 60%;
+    .container__form {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+  }
+}

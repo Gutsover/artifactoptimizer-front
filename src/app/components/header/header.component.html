@@ -1,0 +1,30 @@
+<div class="container">
+  <header class="container__header">
+    <div class="logo">
+      <a [routerLink]="['/home']" routerLinkActive="router-link-active"
+        ><img
+          src="../../../assets/images/logo.png"
+          style="width: 8rem"
+          alt="Logo Genshin Impact"
+      /></a>
+    </div>
+    <div class="container__buttons" *ngIf="isLoggedIn == false">
+      <a
+        class="all-btn btn-header"
+        [routerLink]="['/signup']"
+        routerLinkActive="router-link-active"
+        >Sign up</a
+      >
+      <a
+        class="all-btn btn-header"
+        [routerLink]="['/login']"
+        routerLinkActive="router-link-active"
+        >Log in</a
+      >
+    </div>
+    <div class="container__buttons" *ngIf="isLoggedIn == true">
+      <p>Hi {{ username }}!</p>
+      <button (click)="logout()" class="all-btn btn-header">Log Out</button>
+    </div>
+  </header>
+</div>

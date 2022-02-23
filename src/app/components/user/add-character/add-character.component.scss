@@ -1,0 +1,78 @@
+@import "../../../../styles.scss";
+
+.container {
+  width: 100%;
+  position: relative;
+  .container__form {
+    width: 100%;
+    padding: 2rem;
+    form {
+      padding: 1rem;
+      select {
+        margin-left: 1rem;
+        margin-top: 0.5rem;
+        .select__element {
+          color: $blueLight;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+
+  .character {
+    width: 100%;
+    border: 1px solid $blueLight;
+    border-radius: 3px;
+    background-color: $light;
+    .character__name span {
+      font-style: italic;
+      font-size: 1.5rem;
+    }
+    button {
+      width: 12rem;
+      margin: 0 auto 1rem;
+    }
+    .character__stats {
+      display: flex;
+      justify-content: space-around;
+      overflow: hidden;
+      &--img {
+        display: none;
+        width: 45%;
+        height: auto;
+        margin-left: -1rem;
+        -ms-flex-item-align: end;
+      }
+      &--stat {
+        -ms-flex-item-align: center;
+        color: $dark;
+        margin-bottom: 1rem;
+        li {
+            padding: 0.2rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 575px) {
+  .container {
+    .character {
+        .character__stats {
+          &--img {
+            display: initial;
+          }
+        }
+    }
+  }
+}
+
+
+@media screen and (min-width: 945px) {
+  .container {
+    width: 50%;
+    .character {
+        border-top: 1px solid $dark;
+    }
+  }
+}

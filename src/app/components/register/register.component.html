@@ -1,0 +1,87 @@
+<div class="container pad marginTop">
+  <div class="container__form">
+    <div class="container__form__register">
+      <form
+        #f="ngForm"
+        class="form__register"
+        name="form"
+        (ngSubmit)="f.form.valid && onSubmit()"
+      >
+        <h3 class="form__register--tittle">Sign up</h3>
+        <div class="form__register--field">
+          <label for="username"><i class="fa fa-user"></i>Your user name</label>
+          <input
+            type="text"
+            class="form-control"
+            name="username"
+            #username="ngModel"
+            minlength="3"
+            maxlength="20"
+            [(ngModel)]="form.username"
+            required
+          />
+          <div class="alert" *ngIf="username.errors && f.submitted">
+            <small *ngIf="username.errors.required">Username is required</small>
+            <small *ngIf="username.errors.minlength"
+              >Username must be at least 3 characters</small
+            >
+            <small *ngIf="username.errors.maxlength"
+              >Username must be at most 20 characters</small
+            >
+          </div>
+        </div>
+
+        <!-- __________________________________________________________________________ -->
+        <div class="form__register--field">
+          <label for="email"> <i class="fa fa-envelope"></i>Your email</label>
+          <input
+            type="email"
+            class="form-control"
+            name="email"
+            [(ngModel)]="form.email"
+            required
+            email
+            #email="ngModel"
+          />
+          <div class="alert" *ngIf="email.errors && f.submitted">
+            <small *ngIf="email.errors.required">Email is required</small>
+            <small *ngIf="email.errors.email">
+              Email must be a valid email address
+            </small>
+          </div>
+        </div>
+
+        <!-- _________________________________________________________________________________ -->
+        <div class="form__register--field">
+          <label for="password"> <i class="fa fa-lock"></i>Your password</label>
+          <input
+            type="password"
+            class="form-control"
+            name="password"
+            [(ngModel)]="form.password"
+            required
+            minlength="6"
+            #password="ngModel"
+          />
+          <div class="alert" *ngIf="password.errors && f.submitted">
+            <small *ngIf="password.errors.required">Password is required</small>
+            <small *ngIf="password.errors.minlength"
+              >Password must be at least 6 characters</small
+            >
+          </div>
+        </div>
+
+        <div class="form__register--validate">
+          <button class="all-btn btn-main">Sign Up</button>
+        </div>
+        <div class="alert" *ngIf="f.submitted && isSignUpFailed">
+          Signup failed!
+          <small>{{ errorMessage }}</small>
+        </div>
+      </form>
+      <div class="success" *ngIf="isSuccessful">
+        Your registration is successful!
+      </div>
+    </div>
+  </div>
+</div>
