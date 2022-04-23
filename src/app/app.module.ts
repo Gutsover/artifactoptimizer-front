@@ -13,6 +13,7 @@ import { AddCharacterComponent } from "./components/user/add-character/add-chara
 import { ArtifactsListComponent } from './components/user/artifacts-list/artifacts-list.component';
 import { AddArtifactComponent } from './components/user/add-artifact/add-artifact.component';
 import { HttpClientModule } from "@angular/common/http";
+import { CreateArtifactComponent } from './views/create-artifact/create-artifact.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { HttpClientModule } from "@angular/common/http";
     AddCharacterComponent,
     ArtifactsListComponent,
     AddArtifactComponent,
+    CreateArtifactComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, ReactiveFormsModule, HttpClientModule],
   providers: [],

@@ -36,8 +36,6 @@
     border: 1px solid $blueLight;
     border-radius: 3px;
     margin-bottom: 2rem;
-    max-width: 350px;
-    max-height: 350px;
     &--title {
       border-bottom: 1px solid $blueDark;
       h4 {
@@ -49,6 +47,7 @@
     &--img {
       width: 70px;
       height: 70px;
+      border: 1px solid $blueDark;
       border-radius: 3px;
       display: flex;
       justify-content: center;
@@ -60,16 +59,21 @@
       align-items: center;
       justify-content: space-around;
     }
+    &--stats {
+      margin: 1rem 0 1rem 0;
+    }
   }
 }
 
 @media screen and (min-width: 1020px) {
   .container {
-    width: 60%;
     .container__form {
       display: flex;
       justify-content: space-around;
       align-items: center;
+    }
+    .container__newArtifact {
+      width: 30%;
     }
   }
 }

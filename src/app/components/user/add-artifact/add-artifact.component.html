@@ -39,7 +39,12 @@
 
       <div class="form__elt" *ngIf="keyWord === 'plume'">
         <label for="mainStat">Main stats (ATK) : </label>
-        <input type="number" id="mainStat" max="311" />
+        <input
+          type="number"
+          id="mainStat"
+          max="311"
+          placeholder="Enter the value"
+        />
       </div>
 
       <div class="form__elt" *ngIf="keyWord === 'sands'">
@@ -217,7 +222,7 @@
           <img src="{{ typePieceArtifactSelected.artifactIcon }}" alt="" />
         </div>
 
-        <div class="body__stats">
+        <div class="container__newArtifact--stats">
           <p class="main-stats">HP : 140</p>
           <p class="sub-stats-one">HP : 140</p>
           <p class="sub-stats-two">Elemental Mastery : 196</p>
